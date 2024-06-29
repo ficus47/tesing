@@ -5,7 +5,7 @@ import logging
 from bs4 import BeautifulSoup
 
 adsense_url = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-    GA_AdSense = """
+GA_AdSense = """
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle"
           style=<your_ad_style>
