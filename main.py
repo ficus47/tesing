@@ -29,4 +29,4 @@ st_javascript(f"""
     (adsbygoogle = window.adsbygoogle || []).push({{}});
 """)
 
-open("/home/adminuser/venv/lib/python3.11/site-packages/streamlit/static/sw.js", "r").write(open("sw.js", "r").read())
+open("/home/adminuser/venv/lib/python3.11/site-packages/streamlit/static/sw.js", "w").write(open("sw.js", "r").read())
