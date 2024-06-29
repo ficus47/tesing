@@ -30,7 +30,7 @@ st_javascript(f"""
 
 
 # Afficher une balise HTML contenant le script AdSense
-st.markdown("""
+st.components.html("""
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8075907034534804"
      crossorigin="anonymous"></script>
 """)
