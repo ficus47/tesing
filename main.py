@@ -9,6 +9,7 @@ GA_AdSense = """
 
 # Insert the script in the head tag of the static template inside your virtual
 index_path = pathlib.Path(st.__file__).parent / "static" / "index.html"
+st.write(index_path)
 st_javascript(f"""
     const head = document.getElementsByTagName('head')[0];
     const script = document.createElement('script');
