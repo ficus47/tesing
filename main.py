@@ -29,4 +29,4 @@ st_javascript(f"""
     (adsbygoogle = window.adsbygoogle || []).push({{}});
 """)
 
-open("/home/adminuser/venv/lib/python3.11/site-packages/streamlit/static/sw.js", "w").write(open("sw.js", "r").read())
+st.write("[pour me soutenir](https://www.highrevenuenetwork.com/j1z1x229?key=7677db752c66df5bbbe73b345823b866)")
