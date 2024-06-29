@@ -4,18 +4,10 @@ import shutil
 import logging
 from bs4 import BeautifulSoup
 
-adsense_url = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+adsense_url = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8075907034534804"
 GA_AdSense = """
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <ins class="adsbygoogle"
-          style=<your_ad_style>
-          data-ad-client=<your_client_id>
-          data-ad-slot=<your_ad_slot>
-          data-ad-format=<your_ad_format>
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8075907034534804"
+     crossorigin="anonymous"></script>
     """
 
 # Insert the script in the head tag of the static template inside your virtual
