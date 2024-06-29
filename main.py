@@ -19,8 +19,8 @@ st_javascript(f"""
     const ins = document.createElement('ins');
     ins.className = 'adsbygoogle';
     ins.style = 'display:block';
-    ins.setAttribute('data-ad-client', 'your_client_id');
-    ins.setAttribute('data-ad-slot', 'your_ad_slot');
+    ins.setAttribute('data-ad-client', 'ca-pub-8075907034534804');
+    ins.setAttribute('data-ad-slot', 'f08c47fec0942fa0');
     ins.setAttribute('data-ad-format', 'auto');
     ins.setAttribute('data-full-width-responsive', 'true');
     document.body.appendChild(ins);
