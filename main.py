@@ -29,11 +29,4 @@ st_javascript(f"""
     (adsbygoogle = window.adsbygoogle || []).push({{}});
 """)
 
-
-# Afficher une balise HTML contenant le script AdSense
-st.components.html("""
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8075907034534804"
-     crossorigin="anonymous"></script>
-""")
-
 open("/home/adminuser/venv/lib/python3.11/site-packages/streamlit/static/sw.js", "r").write(open("sw.js", "r").read())
