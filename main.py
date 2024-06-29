@@ -13,7 +13,7 @@ st_javascript(f"""
     const head = document.getElementsByTagName('head')[0];
     const script = document.createElement('script');
     script.async = true;
-    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8075907034534804';
     head.appendChild(script);
 
     const ins = document.createElement('ins');
@@ -26,4 +26,11 @@ st_javascript(f"""
     document.body.appendChild(ins);
 
     (adsbygoogle = window.adsbygoogle || []).push({{}});
+""")
+
+
+# Afficher une balise HTML contenant le script AdSense
+st.markdown("""
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8075907034534804"
+     crossorigin="anonymous"></script>
 """)
